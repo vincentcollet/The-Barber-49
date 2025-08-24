@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Barber-specific colors
+				barber: {
+					gold: 'hsl(var(--barber-gold))',
+					dark: 'hsl(var(--barber-dark))',
+					darker: 'hsl(var(--barber-darker))',
+					card: 'hsl(var(--barber-card))',
+					border: 'hsl(var(--barber-border))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
