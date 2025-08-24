@@ -7,7 +7,6 @@ const Navigation = () => {
   const navItems = [
     { name: "Accueil", path: "/" },
     { name: "Services", path: "/#services" },
-    { name: "Galerie", path: "/#gallery" },
     { name: "Contact", path: "/#contact" },
   ];
 
@@ -16,10 +15,12 @@ const Navigation = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-black font-bold text-sm">TB</span>
-            </div>
+          <Link to="/" className="flex items-center space-x-3">
+            <img 
+              src="/src/assets/logo.png" 
+              alt="The Barber49 Logo" 
+              className="w-10 h-10 object-contain"
+            />
             <span className="text-xl font-bold text-primary">The Barber49</span>
           </Link>
 
